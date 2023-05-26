@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Login Page</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="icon" href="{% static 'dist/img/Bajaj-Markets-Logo.jpg'%}">
+    <link rel="stylesheet" href="{% static 'dist/css/login.css' %}">
+</head>
+<body>
+<div class="box">
+<!--    <div id="header">-->
+<!--        Welcome to {{ login_company }}  Dashboard-->
+
+<!--    </div>-->
+
+    <span class="login100-form-avatar">
+        <img src="{% static 'dist/img/Bajaj-Markets-Logo.jpg' %}" alt="AVATAR">
+    </span>
+    {% for message in messages %}
+            <div class="alert text-danger" role="alert" >
+                <strong>Login failed!</strong> {{ message }}
+            </div>
+        {% endfor %}
+        Project Dashboard
+</div>
+<script src="{% static 'dist/js/jquery.min.js' %}"></script>
+<script>
+     $(function () {
+        $(".alert").delay(3500).fadeOut();
+    });
+</script>
+</body>
+</html>

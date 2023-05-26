@@ -1,0 +1,192 @@
+.main-header .logo,.main-header .navbar {background-image: linear-gradient(to top, #ececec 0%, white 100%);}
+.main-header .navbar {background-image: linear-gradient(to top, #ececec 0%, white 100%);}
+.main-header .logo:hover {background-color: transparent}
+.content-wrapper {background-color:#ecf0f5;}
+.main-header .navbar .sidebar-toggle{color:#251d1d;}
+.main-header .navbar .nav>li>a{color:#251d1d;padding-left: 10px;}
+.logo-lg{position: absolute;z-index:9999;color: #86c64d;}
+.main-header .navbar .sidebar-toggle{color: #fff;position: absolute;top: 62px;left: 0px;background: #00a4e0;padding: 6px;border-radius: 0px 3px 3px 0px;}
+.main-header .logo .logo-lg {font-weight: bold}
+.content-header{margin-left: 15px;}
+.main-header {box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);background-color: #fff;}
+.navbar-nav>.notifications-menu>.dropdown-menu,.navbar-nav>.messages-menu>.dropdown-menu,.navbar-nav>.tasks-menu>.dropdown-menu{width: auto;}
+.sidebar a {font-size: 16px;color: #fff;border-bottom: 1px solid #86c64d}
+
+/* Admin panel */
+.admin-skin .sidebar-menu>li:hover>a,.admin-skin .sidebar-menu>li.menu-open>a{color: #fff;background: #5a8dd2;}
+.admin-skin .sidebar-menu>li.active>a,{background-color: #00a4e0}
+.admin-skin .wrapper,.admin-skin .main-sidebar,.admin-skin .left-side{background-color: #005298;}
+.admin-skin .sidebar a {border-bottom: 1px solid #00a4e0;}
+.admin-skin .title_area {background: #0084f4 ;top: 0px;left: 30px;padding: 5px;border-radius: 0px 0px 3px 3px;color: #fff;}
+.admin-skin .adj_page .box.box-primary {border-top-color: #0084f4 ;}
+.admin-skin .detail-style {background-color: #fff;padding: 0px 5px;border-top: 3px solid #0084f4;border-radius: 3px;margin: 0px 0px 5px 0px;}
+.admin-skin .form-control {border-left: 3px solid #00a4e0;}
+/* End Admin panel */
+
+/*.content-wrapper{min-height:700px!important}*/
+.output-table .form-control{height:28px;border: 1px solid #ced4da!important;}
+.output-table .number-field{width:35px;padding: 1px;}
+.output-table input[type=number]::-webkit-inner-spin-button,
+.output-table input[type=number]::-webkit-outer-spin-button {-webkit-appearance: none;margin: 0;}
+.w-5{width:5%!important;}
+.w-10{width:10%!important;}
+.w-40{width40%!important;}
+.w-50{width:50%!important;}
+ul#menu li {
+  display:inline-block;;
+}
+
+/* Pre Panel */
+.Pre-skin .sidebar-menu>li:hover>a,.Pre-skin .sidebar-menu>li.active>a,.Pre-skin .sidebar-menu>li.menu-open>a {color: #fff;background: #14a3af;}
+.Pre-skin .wrapper,.Pre-skin .main-sidebar,.Pre-skin .left-side {background-color: #00626a;}
+.Pre-skin .sidebar a {border-bottom: 1px solid #00dcc0}
+.Pre-skin .main-header .navbar .sidebar-toggle{background: #00dcc0;}
+.Pre-skin .title_area {background: #00626a ;top: 0px;left: 30px;padding: 5px;border-radius: 0px 0px 3px 3px;color: #fff;}
+.Pre-skin .adj_page .box.box-primary {border-top-color: #0084f4 ;}
+.Pre-skin .detail-style {background-color: #fff;padding: 0px 5px;border-top: 3px solid #00626a;border-radius: 3px;margin: 0px 0px 5px 0px;}
+.Pre-skin .form-control {border-left: 3px solid #00dcc0;}
+.Pre-skin .btn-custom	{background: #ffffff;color: #00626a;border-radius: 0;padding: 6px 5px;border: 1px solid #d2d6de;border-left-color: #fff;}
+/* End Pre Panel */
+
+/* Post Panel */
+.Post-skin .sidebar-menu>li:hover>a,.Post-skin .sidebar-menu>li.active>a,.Post-skin .sidebar-menu>li.menu-open>a {color: #fff;background: #f5b32f;}
+.Post-skin .wrapper,.Post-skin .main-sidebar,.Post-skin .left-side {background-color: #247e9c;}
+.Post-skin .sidebar a {border-bottom: 1px solid #f5b32f;}
+.Post-skin .main-header .navbar .sidebar-toggle{background: #f5b32f;}
+/* End Post Panel */
+
+/* recsum Panel */
+.recsum-skin .sidebar-menu>li:hover>a,.recsum-skin .sidebar-menu>li.active>a,.recsum-skin .sidebar-menu>li.menu-open>a {color: #fff;background: #a0b045;}
+.recsum-skin .wrapper,.recsum-skin .main-sidebar,.recsum-skin .left-side {background-color: #2a2925;}
+.recsum-skin .sidebar a {border-bottom: 1px solid #a0b045;}
+.recsum-skin .main-header .navbar .sidebar-toggle{background: #a0b045;}
+/* End Post Panel */
+
+
+.language-input{min-height:900px;width:  100%;}
+.action-btn {padding: 3px 5px;margin: 0px;min-width: 20px;height: 33px;margin-left: 5px;}
+.edit-btn-color{color: #0084f4;}
+.action-btn:hover,.action-btn:focus {background: #0084f4;color: #fff;border-color: #fff;}
+.play-btn-color{color:  #86c64d;}
+.play-btn-color:hover,.play-btn-color:focus {background: #86c64d;color: #fff;border-color: #fff;}
+.submit-btn-color{color:  #6979f8;}
+.submit-btn-color:hover,.submit-btn-color:focus {background: #6979f8;color: #fff;border-color: #fff;}
+.wrapper{border-left: 5px solid #86c64d;}
+.box-body{min-height: 300px;}
+
+.form-control-feedback {text-align: left;}
+.header-master{margin: 0px 10px;font-size: 24px;}
+.addbutton-currency {margin-right: 15px;float: right;}
+.dataTables_wrapper {width: 100%;margin: 0 auto;}
+.table-striped tbody tr:nth-child(odd){background-color: transparent;}
+.table-striped tbody tr:nth-child(even){background-color: #f3f3f3;}
+.output-table .table th {background: -webkit-linear-gradient(top, #ffffff, #dee0df);background: -moz-linear-gradient(top, #ffffff, #dee0df);
+background: -o-linear-gradient(top, #ffffff, #dee0df);background: -ms-linear-gradient(top, #ffffff, #dee0df);border-top: 0px !important;}
+.output-table .table th,.output-table .table td,.output-table .table.tdValignTop td {
+    padding: .4rem .5rem .4rem;vertical-align: middle;border: 1px solid #bfc0c1;border-width: thin!important;}
+
+.admin-skin .table-top-design {border-top: 3px solid #00a4e0 !important;}
+.Pre-skin .table-top-design {border-top: 3px solid #00dcc0 !important;}
+.border-left {border-left: 1px solid #bfc0c1 !important;}
+.border-right {border-right: 1px solid #bfc0c1 !important;}
+.mb-2, .my-2 {margin-bottom: .5rem!important;}
+.switch {position: relative;display: inline-block;width: 45px;height: 21px;margin-bottom: 0px;margin-top: 5px;margin-right: 10px;}
+.switch input {opacity: 0;width: 0;height: 0;}
+.slider {position: absolute;cursor: pointer;top: 0;left: 0;right: 0;bottom: 0;background-color: #ccc;-webkit-transition: .4s;transition: .4s;}
+.slider:before {position: absolute;content: "";height: 15px;width: 15px;left: 1px;bottom: 3px;background-color: white;-webkit-transition: .4s;transition: .4s;}
+input:checked+.slider {background-color: #6979f8;}
+input:focus+.slider {box-shadow: 0 0 0px #fbaa27;}
+input:checked+.slider:before {-webkit-transform: translateX(26px);-ms-transform: translateX(26px);transform: translateX(26px);}
+.form-control:focus {z-index: 99;color: #495057;background-color: #fff;border-color: #80bdff;outline: 0;box-shadow: inset 0 0 0 transparent, 0 0 0 0.2rem rgba(0,123,255,.25);}
+
+/* Rounded sliders */
+.slider.round {border-radius: 34px;}
+.slider.round:before {border-radius: 50%;}
+
+/* Toggle switch end */
+.action-content {padding: 0px 10px 0px 15px;}
+select {-webkit-appearance: none;-moz-appearance: none;text-indent: 1px;text-overflow: '';appearance: none;
+  background: url(../img/dropdownicon.png) right / 20px no-repeat #fff!important;padding-right: 20px!important;}
+
+/*Custom checkbox start*/
+.container {display: block;position: relative;padding-left: 35px;margin-bottom: 12px;cursor: pointer;font-size: 18px;font-weight: normal;
+  -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+/* Hide the browser's default checkbox */
+.container input {position: absolute;opacity: 0;cursor: pointer;height: 0;width: 0;}
+/* Create a custom checkbox */
+
+.Pre-skin .checkmark {position: absolute;top: 0;left: 0;height: 20px;width: 20px;background-color: #fff;border: 1px solid #00626a;}
+.admin-skin .checkmark {position: absolute;top: 0;left: 0;height: 20px;width: 20px;background-color: #fff;border: 1px solid #2196f3;}
+/* On mouse-over, add a grey background color */
+.admin-skin .container:hover input~.checkmark {background-color: #fff;border: 1px solid #2196f3;}
+.Pre-skin .container:hover input~.checkmark {background-color: #fff;border: 1px solid #00dcc0;}
+/* When the checkbox is checked, add a blue background */
+.Pre-skin .container input:checked~.checkmark {background-color: #00626a;}
+.admin-skin .container input:checked~.checkmark {background-color: #2196F3;}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {content: "";position: absolute;display: none;}
+/* Show the checkmark when checked */
+.container input:checked~.checkmark:after {display: block;}
+/* Style the checkmark/indicator */
+
+.container .checkmark:after {left: 7px;top: 4px;width: 5px;height: 10px;border: solid white;border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);-ms-transform: rotate(45deg);transform: rotate(45deg);}
+/* checkbox end */
+.output-table select.input-sm {line-height: 15px;}
+.input-file{display: inline!important;}
+.navigation-poistion{display: block;padding: 0px;}
+.open .dropdown-adjust{display: block;}
+.nav-display{display: -webkit-box;}
+.Currency-rate-master{padding: 10px;}
+.Currency-rate-master .input-group .input-group-text {color: #777;background-color: transparent;padding-top: 10px}
+.Currency-rate-master .input-group .form-control {border-right: none;}
+.nav-display .dropdown-menu>li>a {display: block;padding: 3px 20px;clear: both;font-weight: 400;line-height: 1.42857143;color: #777;white-space: nowrap;}
+.nav-display>li>a {position: relative;display: block;padding: 13px 15px;}
+.Active{color: #1e7e34 !important;background-color: transparent;padding-top: 10px;}
+.Inactive{color:#dd4b39 !important;background-color: transparent;padding-top: 10px;}
+.register-button{margin-top: -70px;}
+.role-container{background-color: #f4fcff;margin: 5px -5px;}
+.adj_page {margin: 0px 0px 0px 15px;}
+.upload-file{border: 1px solid #d2d6de;width: 205px;}
+.w-70 {width: 70%}
+.w-30{width: 30%}
+.modal-style .modal-header,.modal-footer{padding: 5px 10px;    background-color: #fff;
+    color: #0084f4;
+    border-radius: 0px;}
+.modal-table .form-control {
+    border-left: 1px solid #ccc;
+    height: 30px;
+    border-radius: 5px;
+}
+.modal-table td, .modal-table th {
+    padding: .30rem;}
+.modal-table th {background-color: #ccc;}
+.modal-table .container {margin-bottom: 0px;}
+.modal-table .checkmark {top:5px;}
+
+.w-70 {width: 70%}
+.w-30{width: 30%}
+.modal-style .modal-header,.modal-footer{padding: 5px 10px;    background-color: #fff;
+    color: #0084f4;
+    border-radius: 0px;}
+.modal-table .form-control {
+    border-left: 1px solid #ccc;
+    height: 30px;
+    border-radius: 5px;
+}
+.w-30{
+width:30%;
+}
+.w-70{
+width:70%;
+}
+.modal-table td, .modal-table th {
+    padding: .30rem;}
+.modal-table th {background-color: #ccc;}
+.modal-table .container {margin-bottom: 0px}
+.modal-table .checkmark {top:5px;
+@media only screen and (max-width: 767px) {.logo-lg {position: relative;}}
+@media (max-width: 991px){.navbar-custom-menu>.navbar-nav>li {position: relative;}
+.input-file{margin-top: 30px;}.content-header h1{display: none;}}
+
+

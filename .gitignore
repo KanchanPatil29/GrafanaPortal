@@ -1,0 +1,10 @@
+__pycache__/
+venv/
+migrations/
+logs/
+*.pyc
+*.swp
+*.sqlite3
+*.json
+.DS_Store
+.idea/
